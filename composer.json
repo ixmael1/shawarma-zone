@@ -1,0 +1,18 @@
+{
+    "name": "shawarma-zone/app",
+    "description": "Fast-food orgering app for Shawarma, Pizza & Burgers",
+    "autoload": {
+        "psr-4": {
+            "ShawarmaZone\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Al-Amin Bashir Babuga"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "bramus/router": "^1.6"
+    }
+}
