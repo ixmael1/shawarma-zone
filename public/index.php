@@ -1,20 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Welcome to Shawarma Zone</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <h1>Welcome to Shawarma Zone 🍔</h1>
-  <div id="categories">
-    <button onclick="loadMenu('shawarma')">Shawarma</button>
-    <button onclick="loadMenu('burger')">Burger</button>
-    <button onclick="loadMenu('pizza')">Pizza</button>
+<?php include 'header.php'; ?>
+<section class="hero">
+  <div class="hero-text">
+      <h1>Fast-Food Bliss, Delivered Fast.</h1>
+      <p>Shawarma, Burgers & Pizza made fresh every time. Order now and get it in minutes!</p>
+      <a href="/public/menu.php" class="primary">Order Now</a>
   </div>
-  <div id="menu-container">
-    <!-- Menu will load here via JS -->
+  <div class="hero-img">
+      <img src="/public/images/hero_burger.jpg" alt="Hero Burger">
   </div>
-  <script src="app.js"></script>
-</body>
-</html>
+</section>
+<?php include 'footer.php'; ?>
